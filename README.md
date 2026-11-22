@@ -15,13 +15,13 @@ This repository provides the preprocessing, language-feature extraction, voxelwi
 
 This study integrated naturalistic story-listening fMRI, standardized behavioral assessments and computational language modelling to examine contextual language processing in Cantonese-speaking children ([Figure 1](#paper-figures)). The imaging cohort comprised 23 children, including 16 who completed the full literacy, oral-language and cognitive assessment battery. Following preprocessing and quality assessment, BOLD responses were aligned with contextual embeddings and predictive features extracted from Gemma 3 1B. Two complementary analyses characterized the relationship between these model-derived representations and neural responses. A joint voxelwise general linear model estimated signed associations with surprisal, predictive entropy and semantic update, conditional on the other features. Contextual-embedding encoding models used nested leave-one-subject-out cross-validation to evaluate prediction of the 16 assessment-complete children's responses to the same story. Both approaches accounted for speech-related, acoustic and nuisance variation. Selected-voxel summaries were then derived within cortical and subcortical regions defined by the Schaefer–Tian parcellation. With the child as the unit of inference, permutation analyses assessed regional text-feature responses and associations of regional encoding performance and text-feature coefficients with behavioral scores. False discovery rate correction was applied across regions within each predefined family of tests.
 
-*The paragraph above is copied from the final manuscript; only LaTeX typography and the figure link are converted for Markdown. The complete original Methods section is in [methods.tex](docs/methods.tex), with the manuscript [bibliography](docs/references.bib).*
-
 ## Paper figures
 
 ### Figure 1. Naturalistic story-listening paradigm and analysis framework
 
-[Figure 1 — final PDF](docs/figures/fig1.pdf)
+![Naturalistic story-listening paradigm and analysis framework](docs/figures/fig1.png)
+
+[Vector PDF](docs/figures/fig1.pdf)
 
 ### Figure 2. Contextual embeddings captured spatially structured story responses
 
@@ -53,7 +53,7 @@ This study integrated naturalistic story-listening fMRI, standardized behavioral
 
 [Vector PDF](docs/figures/figS1.pdf)
 
-The PDFs are the exact figures supplied with the final manuscript. Figure 1 is provided directly as a PDF. Figures 2–5 and S1 have data-driven plotting scripts.
+Figures are available in PNG and vector PDF. Data-driven plotting scripts are provided for Figures 2–5 and S1.
 
 ## Repository contents
 

@@ -47,4 +47,4 @@ scatterplot fitting and density estimation. Portable font fallback uses
 DejaVu Sans when Arial is unavailable; regenerated typography can therefore
 differ from the supplied final figures.
 
-Figure 1 is provided directly as the final manuscript PDF in `docs/figures/fig1.pdf`.
+Figure 1 is available as `docs/figures/fig1.pdf`, with a PNG preview displayed in the README.

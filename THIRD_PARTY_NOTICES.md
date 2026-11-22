@@ -9,4 +9,3 @@ images. Their upstream terms and citations remain applicable.
 - **fMRIPrep:** executed using the `nipreps/fmriprep:25.2.7` container; see [fMRIPrep documentation](https://fmriprep.org/). The container and FreeSurfer license are obtained separately.
 - **Gemma 3 1B:** [model repository](https://huggingface.co/google/gemma-3-1b-pt). Weights, tokenizer files and access credentials are obtained separately under the model's terms.
 
-The paper bibliography is provided in [references.bib](docs/references.bib).

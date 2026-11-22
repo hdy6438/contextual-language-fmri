@@ -11,3 +11,9 @@ Thumbs.db
 /work/
 license.txt
 *.log
+
+# Manuscript source files
+*.tex
+*.bib
+*.sty
+*.cls

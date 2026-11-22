@@ -1,5 +1,4 @@
 {
-  "paper_main_tex_sha256": "f3921f10dc8c248d1ac19997bc4f6aa795e8c9c9918814362ec0ff4e9033a8a8",
   "files": {
     "docs/figures/fig1.pdf": "50f50b2a7478088cbd2682b95606d6eff97c145f2c5bcd811c4add23b54ed942",
     "docs/figures/fig2.pdf": "a555aa2606ae85ca37150a412d03cdb6647576469cba89f275fc9d89644b0e2e",
@@ -7,12 +6,11 @@
     "docs/figures/fig4.pdf": "326f6ea754c4b308a7800f4798fe598a3b39b6fadc5c684d287927a2f0971ea4",
     "docs/figures/fig5.pdf": "47cfffd91bebf57f15bc97ac8505ccc79bcedd3946d3292746299a9961d4a44d",
     "docs/figures/figS1.pdf": "5ca2dd4938aece9fc5eaa29089b1bcad1b410ca6dc1ecc059691bf13e5fffe3e",
-    "docs/methods.tex": "e9c83f3e6e8411158a341e0aee4998f9594a49692616ed2eda2d7c8ffbbb6c2b",
-    "docs/references.bib": "38e502e00102ca4fdf4415056a7e40d0baa2854aa3eae541783f30fcc415234a",
     "results/encoding_all_assessment_tests.tsv": "bae61bf0be71d0808738693ef4677e3eeec051c81c36cf1078e99e36e393ec71",
     "results/encoding_atlas_performance_summary.tsv": "d8f59e5e43fc9893d26fbaa38130adfebd2a5e99d9793a1b4ee84ec590710796",
     "results/encoding_roi_performance_all.tsv": "a9150c4778a6771a5fb6516fc37326de9ae67087b04da0a09fd652d20c9cad41",
     "results/test_counts.tsv": "ccc19c042aeca79be39fb51a423a8e117c41650542f02ce68a2dd6976cc64991",
-    "results/text_glm_all_tests.tsv": "02ab36de44a128723606ec8c8b1ac072b9d6cb3aaa5330dca6f6205604b612d4"
+    "results/text_glm_all_tests.tsv": "02ab36de44a128723606ec8c8b1ac072b9d6cb3aaa5330dca6f6205604b612d4",
+    "docs/figures/fig1.png": "f715d15be39ee4398831312215765a6e326ae11762084d368d96d0a9dd4b6588"
   }
 }
