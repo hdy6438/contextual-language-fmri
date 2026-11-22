@@ -1,0 +1,23 @@
+{
+  "title": "Contextual language representations link narrative processing to language and literacy in children",
+  "model": "google/gemma-3-1b-pt",
+  "revision": "fcf18a2a879aab110ca39f8bffbccd5d49d8eb29",
+  "hidden_layer": 13,
+  "hidden_dimension": 1152,
+  "pca_components": 128,
+  "atlas": "schaefer200_tian_s2",
+  "roi_top_percent": 25,
+  "n_imaging": 23,
+  "n_assessment": 16,
+  "tr_seconds": 0.75,
+  "full_volumes": 336,
+  "encoding_first_volume_zero_based": 12,
+  "glm_first_volume_zero_based": 20,
+  "fd_threshold_mm": 0.5,
+  "std_dvars_threshold": 1.5,
+  "fwhm_mm": 4.0,
+  "bh_q": 0.05,
+  "text_glm_roi_coverage": 0.8,
+  "encoding_rois": 232,
+  "glm_rois": 214
+}

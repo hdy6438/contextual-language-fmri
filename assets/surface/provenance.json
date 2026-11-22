@@ -1,0 +1,15 @@
+{
+  "description": "Public fsaverage 10k inflated surface, sulcal depth, medial-wall labels, and MNI152-to-fsaverage registration-fusion coordinates used only for display. Statistical estimation uses the volumetric grid.",
+  "source": "neuromaps datasets: fetch_fsaverage(density=\"10k\") and fetch_regfusion(\"fsaverage\")",
+  "citation": "Markello et al. (2022), neuromaps: structural and functional interpretation of brain maps. Nature Methods. DOI:10.1038/s41592-022-01625-w",
+  "files": {
+    "tpl-MNI152_space-fsaverage_den-10k_hemi-L_regfusion.txt": "916278f4346e76a9c1c08262acb237ead38b60343c1b98c8810162c83147ae4a",
+    "tpl-MNI152_space-fsaverage_den-10k_hemi-R_regfusion.txt": "dbc270fcbe2c63045286f00e9b16a37e877b170db4a664fd718529ee31d89902",
+    "tpl-fsaverage_den-10k_hemi-L_desc-nomedialwall_dparc.label.gii": "9c6568b6861f00f5c89f5f50b906feb329c4f2a21e892b7ef87fb708b8e3c55e",
+    "tpl-fsaverage_den-10k_hemi-L_desc-sulc_midthickness.shape.gii": "0359edb0e0dbcaff5722e34bbdeb382b4065b0276b7b1fecdd1171947d0150f0",
+    "tpl-fsaverage_den-10k_hemi-L_inflated.surf.gii": "35eab939deb5b66d628b801a46d5b82a0b2e69909c2ab683159c3b4cf4c5cde1",
+    "tpl-fsaverage_den-10k_hemi-R_desc-nomedialwall_dparc.label.gii": "40ea0f85e75837f2f5c6f7ccc238436d2137c28a92baca194fd0db4113fd924d",
+    "tpl-fsaverage_den-10k_hemi-R_desc-sulc_midthickness.shape.gii": "d167af76d6a7f4c9104abccb9fbac1d33334e3f69f828ecf62f128cf2b606112",
+    "tpl-fsaverage_den-10k_hemi-R_inflated.surf.gii": "04a9eedae902d13926130da913c95c5cbb3fe4e67d659926945e7616abc50822"
+  }
+}

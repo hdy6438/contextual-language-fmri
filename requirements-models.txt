@@ -1,0 +1,4 @@
+# Install CPU or CUDA PyTorch 2.8.0 separately (see README).
+transformers==4.57.1
+tokenizers==0.22.2
+safetensors==0.8.0

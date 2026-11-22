@@ -1,0 +1,2 @@
+atlas	model	variant	top_pct	n_subjects	n_rois	r_mean	r_sd	r2_mean	r2_sd
+schaefer200_tian_s2	gemma3_1b	pc128	25	16	232	0.1738388019164504	0.0179518971616308	0.0165072423192498	0.003532028544427

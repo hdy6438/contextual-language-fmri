@@ -1,0 +1,9 @@
+analysis	families	rois	tests	significant
+Surprisal: Group response	1	214	214	14
+Surprisal: Assessment association	11	214	2354	0
+Entropy: Group response	1	214	214	16
+Entropy: Assessment association	11	214	2354	0
+Semantic update: Group response	1	214	214	0
+Semantic update: Assessment association	11	214	2354	3
+Encoding: partial $R^2$	11	232	2552	1
+Encoding: Pearson $r$	11	232	2552	1

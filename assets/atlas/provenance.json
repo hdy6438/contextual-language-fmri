@@ -1,0 +1,67 @@
+{
+  "atlas": "Schaefer 2018 200 parcels, seven networks, and Tian 3T S2 subcortex",
+  "source_files": [
+    {
+      "filename": "Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2.nii.gz",
+      "url": "https://raw.githubusercontent.com/yetianmed/subcortex/master/Group-Parcellation/3T/Cortex-Subcortex/MNIvolumetric/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2_MNI152NLin6Asym_2mm.nii.gz",
+      "sha256": "b7a002de22360014c12b5376ef7c8d711b2ede442ef15e3959724486259df58c"
+    },
+    {
+      "filename": "Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2_label.txt",
+      "url": "https://raw.githubusercontent.com/yetianmed/subcortex/master/Group-Parcellation/3T/Cortex-Subcortex/Schaefer2018_200Parcels_7Networks_order_Tian_Subcortex_S2_label.txt",
+      "sha256": "3e1d352b2b65ba1c76b9847302c2ed0376ecc23884993474172af6af2ed03ee5"
+    },
+    {
+      "filename": "Schaefer2018_200Parcels_7Networks_order_FSLMNI152_2mm.nii.gz",
+      "url": "https://raw.githubusercontent.com/ThomasYeoLab/CBIG/master/stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI/Schaefer2018_200Parcels_7Networks_order_FSLMNI152_2mm.nii.gz",
+      "sha256": "474accdd951ecf80624cd445a1cb07a3caf93bb581bf55588da6f6e63189f2e7"
+    },
+    {
+      "filename": "Tian_Subcortex_S2_3T.nii",
+      "url": "https://raw.githubusercontent.com/yetianmed/subcortex/master/Group-Parcellation/3T/Subcortex-Only/Tian_Subcortex_S2_3T.nii",
+      "sha256": "e79ee80b0a9c698e3c7257785f288cff6a68cfee8802830cb2a1b7141d10740f"
+    },
+    {
+      "filename": "Tian_Subcortex_S2_3T_label.txt",
+      "url": "https://raw.githubusercontent.com/yetianmed/subcortex/master/Group-Parcellation/3T/Subcortex-Only/Tian_Subcortex_S2_3T_label.txt",
+      "sha256": "f1c498182107b1a3ceae737f3c140e8053e045d0e9ec0a71bfa05ae8a17d2be5"
+    }
+  ],
+  "label_mapping": "Preserved combined IDs. Tian S2 labels 1\u201332 retain standalone IDs. Schaefer labels 33\u2013232 equal standalone IDs plus 32. Verified every labeled combined voxel against the matching standalone image.",
+  "n_rois": 232,
+  "grid_shape": [
+    91,
+    109,
+    91
+  ],
+  "grid_affine": [
+    [
+      2.0,
+      0.0,
+      0.0,
+      -90.0
+    ],
+    [
+      0.0,
+      2.0,
+      0.0,
+      -126.0
+    ],
+    [
+      0.0,
+      0.0,
+      2.0,
+      -72.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "grid_orientation": "RAS",
+  "grid_operation": "Reorientation only. No interpolation or spatial transform.",
+  "labels_sha256": "5c364240da4ef80d54f9ed3061922b36c57ee09993a534ce3f9efea940bd67c1",
+  "lut_sha256": "95ec202d20a60cf33a12669341a4cd9da7a97bf7529f2cd9ed715ea9b27357cb"
+}

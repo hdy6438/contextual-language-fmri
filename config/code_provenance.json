@@ -1,0 +1,325 @@
+{
+  "source_path_base": "Study analysis derivatives unless prefixed manuscript/",
+  "note": "Functions retained from study scripts; paths and fixed-paper entry points adapted for release. New release adapters and tests are separately identifiable by absence of a historical source.",
+  "files": [
+    {
+      "file": "code/glm/paths.py",
+      "sha256": "ef13b7b4b89ccd6efbb333fa09eb24dafb8f1d709886c5423b1da61abab7d2d2",
+      "source_files": [
+        {
+          "path": "story_embedding_glm/assessment_glm/assessment_manifest.tsv",
+          "sha256": "2666646ca63ff9f7c5fdc96cea1e7d0faf49ae444e6ea6016d44ad3ed4948289"
+        }
+      ]
+    },
+    {
+      "file": "code/glm/design.py",
+      "sha256": "d30a2f98fa0c02bd49bb12dcab0be4266c4f0899699edc7bbffcb12408e6288a",
+      "source_files": [
+        {
+          "path": "story_glm/build_story_design.py",
+          "sha256": "12490fca293152c44946a672fb254d54e2ff591b20729080c3f8ba6a7f7e8bb5"
+        },
+        {
+          "path": "story_text_glm_multi/first_level.py",
+          "sha256": "a9898b5016508def2670ccaf15895a53c60618b57c89f4210c74209983b4d5ef"
+        }
+      ]
+    },
+    {
+      "file": "code/glm/bold.py",
+      "sha256": "97b8ffde00a622fea52de54858e71c11ba50d3e1b686e2c877fc41990ebc99ef",
+      "source_files": [
+        {
+          "path": "story_glm/fit_story_glm.py",
+          "sha256": "4ba6a7b6d4bc33056aa79d2c0486aae3f844d216359f43949357276e04828d4f"
+        }
+      ]
+    },
+    {
+      "file": "code/glm/extract_scalar.py",
+      "sha256": "08f934240c029a3c6960a1c168e625c7eedd0f6f2160da22faaf5a15db04e3b2",
+      "source_files": [
+        {
+          "path": "story_text_glm_multi/extract_scalar_panel.py",
+          "sha256": "c581dcb514334fc531e1cca2bbcd606a33a4ace932e108ace0e059a60996d330"
+        },
+        {
+          "path": "story_features/extract_story_features.py",
+          "sha256": "609b576b940a44d1d8453dcd1b820649d900265204247a44b033916c2382ee20"
+        }
+      ]
+    },
+    {
+      "file": "code/glm/first_level.py",
+      "sha256": "f89bbd86fc70b51a33276e341e0e5fb7d8547ecb11d2028fe1c5a1e624a812ef",
+      "source_files": [
+        {
+          "path": "story_text_glm_multi/first_level.py",
+          "sha256": "a9898b5016508def2670ccaf15895a53c60618b57c89f4210c74209983b4d5ef"
+        },
+        {
+          "path": "story_glm/build_story_design.py",
+          "sha256": "12490fca293152c44946a672fb254d54e2ff591b20729080c3f8ba6a7f7e8bb5"
+        },
+        {
+          "path": "story_glm/fit_story_glm.py",
+          "sha256": "4ba6a7b6d4bc33056aa79d2c0486aae3f844d216359f43949357276e04828d4f"
+        }
+      ]
+    },
+    {
+      "file": "code/glm/aggregate.py",
+      "sha256": "12074f6306cf583257212ceea1b3c51ca4f565307fb3c97001e289fdf8884fe6",
+      "source_files": [
+        {
+          "path": "story_text_glm_multi/roi/aggregate_scalar_glm.py",
+          "sha256": "510fbab0c88d251bfb810f91705217c8245524dd26d7f0ee984b83287f15bec9"
+        },
+        {
+          "path": "story_dfc_text/extract_paired_roi.py",
+          "sha256": "09ad83c2de3c94031b6aa335fab83c63285805f51a20c11bfacb69a0dcba8b9d"
+        }
+      ]
+    },
+    {
+      "file": "code/glm/second_level.py",
+      "sha256": "623908b36c5d187955e66f6d67c6ee86a76edb745920d97f107f68a5dde1e736",
+      "source_files": [
+        {
+          "path": "story_text_glm_multi/fit_roi_glm.py",
+          "sha256": "160172987ecc37907dc4bc73d1f506463ebd3c037457434f21ea0cc6e8deb9ee"
+        }
+      ]
+    },
+    {
+      "file": "code/glm/test_numerics.py",
+      "sha256": "2d4a8cffe4f57318876d41faf64ef6e56eac08fa83057efc9a0e7cbe342203bb",
+      "source_files": []
+    },
+    {
+      "file": "code/features/extract_embedding.py",
+      "source_files": [
+        {
+          "path": "story_encoding_models/extract_llm_embedding.py",
+          "sha256": "9547162decd70861f9f40bb5c9f464c6f513bbf8735b749855c2c3d7598b1a6d"
+        }
+      ],
+      "sha256": "828d23bf8ce227bdf711392c52d71ea479df6a8aaddb9c0e8b972e0619c83c49"
+    },
+    {
+      "file": "code/encoding/build_features.py",
+      "source_files": [
+        {
+          "path": "story_encoding_models/build_encoding_features.py",
+          "sha256": "b0c69a9a0f9791f28d96630f0693d716d23e2be189bb9d4a505d4f0c69cad9a8"
+        }
+      ],
+      "sha256": "e5ba05bc04b9f52053b066ee4c45fed2496137ee3d52ccd113e8666d3e3d4f62"
+    },
+    {
+      "file": "code/encoding/prepare_bold.py",
+      "source_files": [
+        {
+          "path": "story_encoding/prepare_bold.py",
+          "sha256": "8344a7f127d574f8261cd3480e8318e1a925b5461b54114bb5e43d26540edc4b"
+        }
+      ],
+      "sha256": "a5cb8cc706c01f04729669fece7f514ffe4570a4678510d8601d3f7f8baea7a0"
+    },
+    {
+      "file": "code/encoding/fit_encoding.py",
+      "source_files": [
+        {
+          "path": "story_encoding_models/fit_encoding.py",
+          "sha256": "8fd20000dfdca7e364d3a03bca0024de1ad3837777e2c894d12b974b03fa41e1"
+        }
+      ],
+      "sha256": "cea9993cb9992f7fb7d854dcfc1a8d238d2f666d9d46698cb777fb52632ef0c8"
+    },
+    {
+      "file": "code/encoding/accelerated_solver.py",
+      "source_files": [
+        {
+          "path": "story_encoding_models/accelerated_solver.py",
+          "sha256": "3d64a8ea1897d22057a83dd559cb9ccff2208adbf0e982d5e958aeaffa633f89"
+        }
+      ],
+      "sha256": "3d64a8ea1897d22057a83dd559cb9ccff2208adbf0e982d5e958aeaffa633f89"
+    },
+    {
+      "file": "code/encoding/publish_results.py",
+      "source_files": [
+        {
+          "path": "story_encoding_models/publish_results.py",
+          "sha256": "3f6de420c292306182a9bc0dce3c06136b9fcd607142db525e2de9080f90baaa"
+        }
+      ],
+      "sha256": "3f6de420c292306182a9bc0dce3c06136b9fcd607142db525e2de9080f90baaa"
+    },
+    {
+      "file": "code/encoding/exact_spearman.py",
+      "source_files": [
+        {
+          "path": "story_encoding_models/roi_assessment/exact_spearman.py",
+          "sha256": "758ab7f7121309a539abdfc42f69009d6bf87d6f4cce340e62ec98ead1289fac"
+        }
+      ],
+      "sha256": "758ab7f7121309a539abdfc42f69009d6bf87d6f4cce340e62ec98ead1289fac"
+    },
+    {
+      "file": "code/encoding/roi_analysis.py",
+      "source_files": [
+        {
+          "path": "story_encoding_models/roi_assessment/aggregate_roi_metrics.py",
+          "sha256": "ca2e19722f384b8a988bd38907a1e3cb3e8013f7c20f2d713da49db214044454"
+        },
+        {
+          "path": "story_encoding_models/roi_assessment/multi_atlas/aggregate_atlases.py",
+          "sha256": "ff4143ae9d201a1accd8facf8e64fead9049756a18d051c6b68d25e3c61706cf"
+        },
+        {
+          "path": "story_encoding_models/roi_assessment/followup/analyze_incremental_r2_assessments.py",
+          "sha256": "ab4a2eb77219fe846ec5fc1a7ecb800b7338e215634d5b26453dbb7f6b829a66"
+        }
+      ],
+      "sha256": "13967f09c302808f1307c22506fdff89304241db79f7746bcd7f5fa5b819255d"
+    },
+    {
+      "file": "code/preprocessing/run_fmriprep.sh",
+      "source_files": [
+        {
+          "path": "../run_preprocess.sh",
+          "sha256": "9e3a9ec01f0ae72d5b56652e2aece4ecc26476cebc51e869a5f1f5a6407751b6"
+        }
+      ],
+      "sha256": "dde133fd06fe096c5638a8cb672d270e5271d61ed00d0e0c67049c45da9b843d"
+    },
+    {
+      "file": "code/atlas/prepare_atlas.py",
+      "source_files": [
+        {
+          "path": "story_encoding_models/roi_assessment/multi_atlas/prepare_schaefer_harvard_atlases.py",
+          "sha256": "279f8456e64cc99e8d46df69d8e33a2f7e355aa28a795e99f3bec737e547afd7"
+        }
+      ],
+      "sha256": "f9b14dfa37ab969e2d09a34592c208aca9b04c4c6be607df4573ca76fce3a7d8"
+    },
+    {
+      "file": "code/figures/plot_encoding.py",
+      "source_files": [
+        {
+          "path": "manuscript/code/build_selected_encoding_figures.py",
+          "sha256": "ef345aedcd164327c1170e23f4c0b0bcee79b271bab3b4ada475eab6a30a2c67"
+        }
+      ],
+      "sha256": "3c57899eccf8fba7a238f2aa8e3808edcc5dc0562657126f81f49fbd78665394"
+    },
+    {
+      "file": "code/figures/plot_text_glm.py",
+      "source_files": [
+        {
+          "path": "manuscript/code/build_selected_glm_figures.py",
+          "sha256": "bbfae43dd963612a40790757c4f1cff00bfec0f0a10b62d61db234fbed1403c8"
+        }
+      ],
+      "sha256": "2b49297395483de5b1e79ba60a7ed803b542f6a4904b66d1b181673de502ec0e"
+    },
+    {
+      "file": "code/figures/plot_cohort.py",
+      "source_files": [
+        {
+          "path": "manuscript/code/build_cohort_figure.py",
+          "sha256": "1644b7e03bc6bd176a346579c07b7ca4f06df06831f3a3efdeb9fa31fd7cef41"
+        }
+      ],
+      "sha256": "c53ef7b25cb3d14b51a19be59832d42de92e21c26a002d1e2b886d4333418a8b"
+    },
+    {
+      "file": "code/figures/surface_maps.py",
+      "source_files": [
+        {
+          "path": "manuscript/code/surface_maps.py",
+          "sha256": "206deb8483342a4c491746c35f3ac796214f2c40f0f4896a5a6cb2c4a8fc68f9"
+        }
+      ],
+      "sha256": "b2ade97e5de04f9bf929b926a76994e4ac5081ddd4f4d4bb76f9d261cba9078a"
+    },
+    {
+      "file": "code/figures/association_style.py",
+      "source_files": [
+        {
+          "path": "manuscript/code/association_style.py",
+          "sha256": "a70f3b531aaedce3e4e77cf6f173415892b85e0114adf34ffa02a4a473177d96"
+        }
+      ],
+      "sha256": "a70f3b531aaedce3e4e77cf6f173415892b85e0114adf34ffa02a4a473177d96"
+    },
+    {
+      "file": "code/figures/surface_anchors.py",
+      "source_files": [
+        {
+          "path": "manuscript/code/build_text_glm_named_surfaces.py",
+          "sha256": "dcbcd9d34bfdbd908e41b40cc8f31c70225ed617b452ca9f89bf66769f712111"
+        }
+      ],
+      "sha256": "d48daa2c622b5a9c784d7efaee18633c01284271af315f7a7cfaddb72ecd300a"
+    },
+    {
+      "file": "code/figures/audit_panel_alignment.py",
+      "source_files": [
+        {
+          "path": "manuscript/code/audit_panel_alignment.py",
+          "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56"
+        }
+      ],
+      "sha256": "4ed2d6afe9db45aaf6ca26aeb264cfc251ae92b49ee9fbf117d926e1956acf56"
+    },
+    {
+      "file": "code/figures/build_tables.py",
+      "source_files": [
+        {
+          "path": "manuscript/code/build_selected_tables.py",
+          "sha256": "e3f315237ee549bfa4d61552227127ee53eb739afbd1f6e3ab2eb9b496af2ece"
+        }
+      ],
+      "sha256": "d83e4f1ce26323547272be00b28a44394ced922b1c9173fcc9a76043b254dfc7"
+    },
+    {
+      "file": "code/encoding/test_numerics.py",
+      "source_files": [],
+      "role": "Release adapter, fixed-paper integration or numerical validation",
+      "sha256": "7ff4879b43e258f598e76a31635f125ec8e0474050d96f7cfc11377fd15ca6aa"
+    },
+    {
+      "file": "code/figures/export_figure_data.py",
+      "source_files": [],
+      "role": "Release adapter, fixed-paper integration or numerical validation",
+      "sha256": "ca13992605e7fa41ff6ebff3613faded472fcd5a96d4811a5595f15a121eef15"
+    },
+    {
+      "file": "code/figures/figure_common.py",
+      "source_files": [],
+      "role": "Release adapter, fixed-paper integration or numerical validation",
+      "sha256": "d7e348fdf8643d41992bc018f11241e5a5780654368863642d971801e348962d"
+    },
+    {
+      "file": "code/figures/render_all.py",
+      "source_files": [],
+      "role": "Release adapter, fixed-paper integration or numerical validation",
+      "sha256": "eceffe953c04c9dab05dfd9482faddbd3c6cfabc8cb6c235a5938f76c28c6230"
+    },
+    {
+      "file": "code/preprocessing/build_run_manifest.py",
+      "source_files": [],
+      "role": "Release adapter, fixed-paper integration or numerical validation",
+      "sha256": "ee26ed1f83fdfded1bb2a774eb733aef32fa712ad3ea13d02d4d39c3adf84797"
+    },
+    {
+      "file": "code/preprocessing/summarize_qc.py",
+      "source_files": [],
+      "role": "Release adapter, fixed-paper integration or numerical validation",
+      "sha256": "daa213cfbe5f0658a4be480e60006ab416c84dc39767ab27d89cc58cf8efdefc"
+    }
+  ]
+}
