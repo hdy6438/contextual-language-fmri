@@ -148,4 +148,4 @@ All 7,704 text-GLM permutation p values and BH q values reproduced the original 
 
 ## Acknowledgment
 
-This work was supported by Brain Science and Brain-like Intelligence Technology - National Science and Technology Major Project (2021ZD0200500) and The Hong Kong Polytechnic University Departmental Collaborative Research Fund (Project ID: P0056428).
+This work was supported by Brain Science and Brain-like Intelligence Technology - National Science and Technology Major Project (2021ZD0200500), The Hong Kong Polytechnic University Departmental Collaborative Research Fund (Project ID: P0056428), an internal grant from The Hong Kong Polytechnic University (Project ID: P0048377), The Hong Kong Polytechnic University Collaborative Research with World-leading Research Groups Fund (Project ID: P0058097) and Research Grants Council Collaborative Research Fund (Project ID: C5033-24G). The authors thank the University Research Facility in Behavioral and Systems Neuroscience (UBSN), The Hong Kong Polytechnic University, for technical and facility support. The authors thank all participants for their time and contribution to this study.
